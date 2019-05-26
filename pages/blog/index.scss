@@ -1,0 +1,41 @@
+.content {
+  max-width: 760px;
+  padding: 20px 10px 0;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 22px;
+  color: #368df3;
+  font-weight: normal;
+  margin: 20px 0 5px;
+}
+
+.time {
+  margin: 0 0 30px;
+  font-weight: 100;
+}
+
+:global{
+  pre {
+    padding: 10px;
+    background: #000000;
+    overflow-x: auto;
+  }
+  h2, h3, h4, h5, h6 {
+    position: relative;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 15px 0;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: #368df3;
+    }
+  }
+}

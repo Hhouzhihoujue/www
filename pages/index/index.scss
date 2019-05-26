@@ -1,0 +1,22 @@
+.content {
+  max-width: 760px;
+  padding: 20px 10px 0;
+  margin: 0 auto;
+}
+
+.blog-time-item {
+  margin-bottom: 20px;
+}
+
+.time {
+  color: #CCCCCC;
+}
+
+.blog-item {
+  color: #368df3;
+  font-size: 22px;
+  line-height: 1.6;
+  &:hover {
+    cursor: pointer;
+  }
+}

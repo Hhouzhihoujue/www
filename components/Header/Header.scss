@@ -1,0 +1,20 @@
+.main-header {
+  .header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 760px;
+    margin: 0 auto;
+    height: 60px;
+    padding: 0 10px;
+  }
+  .logo {
+    height: 40px;
+  }
+  .nav-box {
+    background: green;
+  }
+  .nav-item {
+    color: #368df3;
+  }
+}
