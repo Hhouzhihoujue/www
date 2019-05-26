@@ -1,5 +1,5 @@
 
-import Head from "next/Head";
+import Head from "next/head";
 import { withRouter } from "next/router";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
